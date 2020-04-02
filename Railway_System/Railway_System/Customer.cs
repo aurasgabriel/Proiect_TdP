@@ -12,10 +12,14 @@ namespace Railway_System
     using System;
     using System.Collections.Generic;
     
-    public partial class Admin
+    public partial class Customer
     {
-        public int Id { get; set; }
-        public string Username { get; set; }
-        public string Password { get; set; }
+        public int CustomerID { get; set; }
+        public string First_Name { get; set; }
+        public string Last_Name { get; set; }
+        public string Birthday { get; set; }
+        public string City { get; set; }
+        public string Phone { get; set; }
+        public string E_mail { get; set; }
     }
 }
