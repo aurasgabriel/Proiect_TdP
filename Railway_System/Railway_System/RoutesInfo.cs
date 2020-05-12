@@ -56,5 +56,10 @@ namespace Railway_System
         {
             this.Close();
         }
+
+        private void RoutesInfo_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

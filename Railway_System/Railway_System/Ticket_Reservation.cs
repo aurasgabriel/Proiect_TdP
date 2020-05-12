@@ -111,5 +111,10 @@ namespace Railway_System
                 return true;
             }
         }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

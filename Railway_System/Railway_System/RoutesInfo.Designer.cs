@@ -281,6 +281,7 @@
             this.Name = "RoutesInfo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RoutesInfo";
+            this.Load += new System.EventHandler(this.RoutesInfo_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
