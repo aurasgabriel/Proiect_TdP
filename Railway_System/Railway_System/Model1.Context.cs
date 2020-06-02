@@ -26,5 +26,8 @@ namespace Railway_System
         }
     
         public virtual DbSet<Admin> Admins { get; set; }
+        public virtual DbSet<Customer> Customers { get; set; }
+        public virtual DbSet<Route> Routes { get; set; }
+        public virtual DbSet<Reservation> Reservations { get; set; }
     }
 }

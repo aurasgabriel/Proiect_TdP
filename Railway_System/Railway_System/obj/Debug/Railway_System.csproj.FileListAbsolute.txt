@@ -15,8 +15,12 @@ C:\Users\auras\Documents\Proiect_TdP\Railway_System\Railway_System\bin\Debug\Ubi
 C:\Users\auras\Documents\Proiect_TdP\Railway_System\Railway_System\bin\Debug\Renci.SshNet.dll
 C:\Users\auras\Documents\Proiect_TdP\Railway_System\Railway_System\bin\Debug\MySql.Data.xml
 C:\Users\auras\Documents\Proiect_TdP\Railway_System\Railway_System\obj\Debug\Railway_System.csproj.CopyComplete
-C:\Users\auras\Documents\Proiect_TdP\Railway_System\Railway_System\obj\Debug\Railway_System.MainForm.resources
 C:\Users\auras\Documents\Proiect_TdP\Railway_System\Railway_System\bin\Debug\EntityFramework.dll
 C:\Users\auras\Documents\Proiect_TdP\Railway_System\Railway_System\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\auras\Documents\Proiect_TdP\Railway_System\Railway_System\bin\Debug\EntityFramework.xml
 C:\Users\auras\Documents\Proiect_TdP\Railway_System\Railway_System\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\auras\Documents\Proiect_TdP\Railway_System\Railway_System\obj\Debug\Railway_System.Home.resources
+C:\Users\auras\Documents\Proiect_TdP\Railway_System\Railway_System\obj\Debug\Railway_System.Contact.resources
+C:\Users\auras\Documents\Proiect_TdP\Railway_System\Railway_System\obj\Debug\Railway_System.ManageUsers.resources
+C:\Users\auras\Documents\Proiect_TdP\Railway_System\Railway_System\obj\Debug\Railway_System.RoutesInfo.resources
+C:\Users\auras\Documents\Proiect_TdP\Railway_System\Railway_System\obj\Debug\Railway_System.Ticket_Reservation.resources

@@ -22,22 +22,6 @@ namespace Railway_System
 
         }
 
-        private void adaugaOCursaNouaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void clientNouToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void despreToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Despre obj2 = new Despre();
-            obj2.ShowDialog();
-        }
-
         private void contactToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Contact obj3 = new Contact();
@@ -46,13 +30,20 @@ namespace Railway_System
 
         private void rezervaTichetToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Ticket_Reservation obj6 = new Ticket_Reservation();
+            obj6.ShowDialog();
         }
 
         private void manageUsersToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ManageUsers obj4 = new ManageUsers();
             obj4.ShowDialog();
+        }
+
+        private void manageRoutesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RoutesInfo obj5 = new RoutesInfo();
+            obj5.ShowDialog();
         }
     }
 }

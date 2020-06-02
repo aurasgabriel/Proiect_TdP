@@ -37,10 +37,12 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textName = new System.Windows.Forms.TextBox();
+            this.textmail = new System.Windows.Forms.TextBox();
+            this.textsubject = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.textpass = new System.Windows.Forms.TextBox();
+            this.panel6 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
             this.SuspendLayout();
@@ -97,7 +99,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.LightSalmon;
-            this.panel4.Location = new System.Drawing.Point(48, 425);
+            this.panel4.Location = new System.Drawing.Point(48, 473);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(215, 3);
             this.panel4.TabIndex = 4;
@@ -135,46 +137,47 @@
             this.label4.Size = new System.Drawing.Size(78, 28);
             this.label4.TabIndex = 6;
             this.label4.Text = "SEND";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
-            // textBox1
+            // textName
             // 
-            this.textBox1.BackColor = System.Drawing.Color.OrangeRed;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Gadugi", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.LightSalmon;
-            this.textBox1.Location = new System.Drawing.Point(48, 124);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(215, 26);
-            this.textBox1.TabIndex = 4;
-            this.textBox1.Text = "Name";
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textName.BackColor = System.Drawing.Color.OrangeRed;
+            this.textName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textName.Font = new System.Drawing.Font("Gadugi", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textName.ForeColor = System.Drawing.Color.LightSalmon;
+            this.textName.Location = new System.Drawing.Point(48, 124);
+            this.textName.Name = "textName";
+            this.textName.Size = new System.Drawing.Size(215, 26);
+            this.textName.TabIndex = 4;
+            this.textName.Text = "Name";
+            this.textName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textBox2
+            // textmail
             // 
-            this.textBox2.BackColor = System.Drawing.Color.OrangeRed;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Gadugi", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.LightSalmon;
-            this.textBox2.Location = new System.Drawing.Point(48, 189);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(215, 26);
-            this.textBox2.TabIndex = 6;
-            this.textBox2.Text = "E-mail";
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.textmail.BackColor = System.Drawing.Color.OrangeRed;
+            this.textmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textmail.Font = new System.Drawing.Font("Gadugi", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textmail.ForeColor = System.Drawing.Color.LightSalmon;
+            this.textmail.Location = new System.Drawing.Point(48, 189);
+            this.textmail.Name = "textmail";
+            this.textmail.Size = new System.Drawing.Size(215, 26);
+            this.textmail.TabIndex = 6;
+            this.textmail.Text = "E-mail";
+            this.textmail.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
-            // textBox3
+            // textsubject
             // 
-            this.textBox3.BackColor = System.Drawing.Color.OrangeRed;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Gadugi", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.Color.LightSalmon;
-            this.textBox3.Location = new System.Drawing.Point(48, 247);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(215, 178);
-            this.textBox3.TabIndex = 7;
-            this.textBox3.Text = "Message";
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.textsubject.BackColor = System.Drawing.Color.OrangeRed;
+            this.textsubject.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textsubject.Font = new System.Drawing.Font("Gadugi", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textsubject.ForeColor = System.Drawing.Color.LightSalmon;
+            this.textsubject.Location = new System.Drawing.Point(48, 295);
+            this.textsubject.Multiline = true;
+            this.textsubject.Name = "textsubject";
+            this.textsubject.Size = new System.Drawing.Size(215, 178);
+            this.textsubject.TabIndex = 7;
+            this.textsubject.Text = "Message";
+            this.textsubject.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // label5
             // 
@@ -188,16 +191,38 @@
             this.label5.Text = "X";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
+            // textpass
+            // 
+            this.textpass.BackColor = System.Drawing.Color.OrangeRed;
+            this.textpass.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textpass.Font = new System.Drawing.Font("Gadugi", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textpass.ForeColor = System.Drawing.Color.LightSalmon;
+            this.textpass.Location = new System.Drawing.Point(48, 248);
+            this.textpass.Name = "textpass";
+            this.textpass.Size = new System.Drawing.Size(215, 26);
+            this.textpass.TabIndex = 9;
+            this.textpass.Text = "Password";
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.LightSalmon;
+            this.panel6.Location = new System.Drawing.Point(48, 274);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(215, 3);
+            this.panel6.TabIndex = 10;
+            // 
             // Contact
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.OrangeRed;
             this.ClientSize = new System.Drawing.Size(310, 550);
+            this.Controls.Add(this.panel6);
+            this.Controls.Add(this.textpass);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textsubject);
+            this.Controls.Add(this.textmail);
+            this.Controls.Add(this.textName);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
@@ -209,7 +234,7 @@
             this.KeyPreview = true;
             this.Name = "Contact";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Contact";
+            this.Text = "1";
             this.Load += new System.EventHandler(this.Contact_Load);
             this.panel1.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
@@ -229,9 +254,11 @@
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textName;
+        private System.Windows.Forms.TextBox textmail;
+        private System.Windows.Forms.TextBox textsubject;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textpass;
+        private System.Windows.Forms.Panel panel6;
     }
 }

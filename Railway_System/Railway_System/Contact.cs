@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Net;
+using System.Net.Mail;
 
 namespace Railway_System
 {
@@ -45,6 +47,19 @@ namespace Railway_System
         private void label5_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            MailMessage msg = new MailMessage(textmail.Text, "mail", textName.Text, textsubject.Text);
+            msg.IsBodyHtml = true;
+            SmtpClient sc = new SmtpClient("smtp.gmail.com", 587);
+            sc.UseDefaultCredentials = false;
+            NetworkCredential cre = new NetworkCredential("mail",textpass.Text);
+            sc.Credentials = cre;
+            sc.EnableSsl = true;
+            sc.Send(msg);
+            MessageBox.Show("Mail Sent !");
         }
     }
 }
