@@ -45,5 +45,10 @@ namespace Railway_System
             RoutesInfo obj5 = new RoutesInfo();
             obj5.ShowDialog();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -24,3 +24,6 @@ C:\Users\auras\Documents\Proiect_TdP\Railway_System\Railway_System\obj\Debug\Rai
 C:\Users\auras\Documents\Proiect_TdP\Railway_System\Railway_System\obj\Debug\Railway_System.ManageUsers.resources
 C:\Users\auras\Documents\Proiect_TdP\Railway_System\Railway_System\obj\Debug\Railway_System.RoutesInfo.resources
 C:\Users\auras\Documents\Proiect_TdP\Railway_System\Railway_System\obj\Debug\Railway_System.Ticket_Reservation.resources
+C:\Users\auras\Documents\Proiect_TdP\Railway_System\Railway_System\bin\Debug\NLog.dll
+C:\Users\auras\Documents\Proiect_TdP\Railway_System\Railway_System\bin\Debug\NLog.xml
+C:\Users\auras\Documents\Proiect_TdP\Railway_System\Railway_System\bin\Debug\NLog.config
